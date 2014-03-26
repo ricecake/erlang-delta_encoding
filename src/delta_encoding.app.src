@@ -1,0 +1,12 @@
+{application, delta_encoding,
+ [
+  {description, "A Delta Encoding library"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { delta_encoding, []}},
+  {env, []}
+ ]}.
